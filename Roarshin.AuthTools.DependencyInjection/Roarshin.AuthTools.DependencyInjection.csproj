@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <Authors>Stuart Harrison</Authors>
+    <Description>Small handy library that can provide a quick way to add authentication into your projects &amp; prototypes.</Description>
+    <PackageProjectUrl>https://github.com/stuartaharrison/roarshin-auth-tools</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/stuartaharrison/roarshin-auth-tools</RepositoryUrl>
+    <Copyright>Stuart Harrison</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
