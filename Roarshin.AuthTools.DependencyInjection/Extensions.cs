@@ -31,6 +31,12 @@ namespace Roarshin.AuthTools.DependencyInjection {
             });
 
             return services;
-        }   
+        }
+
+        public static IServiceCollection AddRoarshinAuthTools<T>(this IServiceCollection services, string tokenKey) {
+            return services.AddRoarshinAuthTools<T>(cfg => {
+                cfg.ConfigureAuthToken(tokenKey);
+            });
+        }
     }
 }
